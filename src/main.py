@@ -1,5 +1,6 @@
 from tasks_manager import *
 
+# Load existing tasks from planner.json at startup (or initialize an empty list)
 data = load_tasks()
 
 while True:
@@ -8,11 +9,12 @@ while True:
     print("2. View tasks")
     print("3. Mark task complete")
     print("4. Delete task")
-    print("5. Filter/Sort task")
+    print("5. Filter / Sort tasks")
     print("6. Edit task")
     print("7. Exit")
 
     choice = int(input("Choose an option:\t"))
+
     if choice == 1:
         add_task(data)
     elif choice == 2:
@@ -29,4 +31,3 @@ while True:
         break
     else:
         print("Invalid option, try again")
-        
