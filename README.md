@@ -28,7 +28,9 @@ On launch, you'll see a menu:
 2. View tasks
 3. Mark task complete
 4. Delete task
-5. Exit
+5. Filter / Sort tasks
+6. Edit task
+7. Exit
 ```
 
 Tasks are saved locally in `planner.json` inside the `src/` directory.
